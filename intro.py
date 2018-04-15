@@ -52,7 +52,7 @@ for i in range(epochs):
         epsilon -= (1.0/epochs)
 
 
-'''
+
 #This neural network is the the Q-function
 
 from keras.models import Sequential
@@ -102,4 +102,4 @@ def get_reward(new_state, time_step, action, xdata, signal, terminal_state, epoc
     return reward
 
 
-'''
+
